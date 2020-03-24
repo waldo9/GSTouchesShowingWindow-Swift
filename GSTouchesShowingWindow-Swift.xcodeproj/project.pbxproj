@@ -213,12 +213,12 @@
 				TargetAttributes = {
 					1674CB3C1EF418CA006A7056 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BKU6J3C237;
+						DevelopmentTeam = 42UZ4HQGB4;
 						ProvisioningStyle = Automatic;
 					};
 					16CEA8FA1F5033CC00A97FED = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BKU6J3C237;
+						DevelopmentTeam = 42UZ4HQGB4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -228,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -372,6 +373,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +416,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -423,12 +426,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKU6J3C237;
+				DEVELOPMENT_TEAM = 42UZ4HQGB4;
 				INFOPLIST_FILE = "GSTouchesShowingWindow-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glimsoft.GSTouchesShowingWindow-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -442,33 +445,33 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glimsoft.GSTouchesShowingWindow-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		16CEA90A1F5033CC00A97FED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = BKU6J3C237;
+				DEVELOPMENT_TEAM = 42UZ4HQGB4;
 				INFOPLIST_FILE = "Today extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glimsoft.GSTouchesShowingWindow-Swift.Today-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		16CEA90B1F5033CC00A97FED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = BKU6J3C237;
+				DEVELOPMENT_TEAM = 42UZ4HQGB4;
 				INFOPLIST_FILE = "Today extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glimsoft.GSTouchesShowingWindow-Swift.Today-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -500,6 +503,7 @@
 				16CEA90B1F5033CC00A97FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
